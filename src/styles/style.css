@@ -113,9 +113,34 @@ h3 {
 
   height: 525px;
   top: -45px;
-  left: 296px;
+  right: -270px;
 
   z-index: -1;
 }
 
+.text-block {
+  display: flex;
+  margin-top: 185px;
+}
 
+.col-1 {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.button {
+  margin-top: 40px;
+  padding: 12px 24px;
+
+  display: inline-block;
+
+  text-align: center;
+  font-weight: bold;
+
+  background-color: var(--main-color);
+  color: #fff;
+}
