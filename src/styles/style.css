@@ -111,7 +111,7 @@ h3 {
 
   background-color: var(--semi-white);
 
-  z-index: -2;
+  z-index: 0;
 }
 
 header {
@@ -191,9 +191,8 @@ header {
   color: #fff; 
 }
 
-a.button-detail:hover {
-  background-color: var(--main-color);
-  color: #000; 
+.button-detail:hover {
+  background-color: #EA7600;
 }
 
 /*Секция с видео*/
