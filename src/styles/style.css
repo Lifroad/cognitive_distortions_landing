@@ -364,6 +364,8 @@ header {
 
   margin: 0;
   padding: 15px;
+
+  outline:none;
 }
 
 .p-18 {
@@ -391,7 +393,7 @@ header {
 }
 
 .send-button::before {
-  content: url('../../image/send.svg');
+  content: url('../image/send.svg');
   position: relative;
 
   top: 13px;
