@@ -351,6 +351,14 @@ header {
 
 /* Footer сайта */
 
+footer {
+  position: relative;
+
+  width: 1110px;
+
+  margin: 100px auto;
+}
+
 .footer-box {
   display: flex;
   justify-content: space-between;
