@@ -260,6 +260,9 @@ header {
 }
 
 .menu-box {
+  cursor: pointer;
+  display: block;
+
   width: 326px;
   margin-right: 30px;
   padding: 24px;
@@ -383,6 +386,8 @@ header {
   top: 77px;
   right:55px;
   display: inline-block;
+
+  cursor: pointer;
 
   height: 50px;
   width: 70px;
