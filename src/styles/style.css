@@ -359,7 +359,7 @@ header {
   width: 1000px;
   height: 190px;
 
-  padding: 0 55px;
+  padding: 0.1px 55px;
 
   background-color: var(--main-dark);
 }
