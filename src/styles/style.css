@@ -115,8 +115,9 @@ h3 {
   font-weight: normal;
 }
 
-.title-30 {
-  padding-bottom: 30px;
+.title-author {
+  margin: 0;
+  padding: 27px 0 30px 0;
 }
 
 .h-52 {
@@ -226,10 +227,10 @@ header {
 
 .video-section {
   text-align: center;
-  margin-bottom: -200px;
+  margin-bottom: -202px;
 }
 
-.video {
+.shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -295,21 +296,6 @@ header {
   color: #fff;
 }
 
-/* .menu-link {
-  display: block;
-  color: var(--dark);
-
-  text-decoration: none;
-}
-
-.menu-link:hover {
-  color: #fff;
-}
-
-.menu-link:hover > h3 {
-  color: #fff;
-} */
-
 /* Стандартные секции */
 
 .p-24 {
@@ -351,10 +337,12 @@ header {
 
   width: 1100px;
 
-  margin: 100px 0 20px 0;
+  margin: 100px 0 15px 0;
   padding: 5px 0 5px 10px;
 
+  font-size: 14px;
   font-weight: bold;
+  line-height: 1.6;
 }
 
 .ts-text-block {
