@@ -352,11 +352,9 @@ header {
 /* Footer сайта */
 
 footer {
-  position: relative;
+  display: flex;
+  justify-content: center;
 
-  width: 1110px;
-
-  margin: 100px auto;
 }
 
 .footer-box {
